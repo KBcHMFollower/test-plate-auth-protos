@@ -4,7 +4,9 @@
 // - protoc             v5.27.1
 // source: auth/auth.proto
 
-package authservice
+//protoc -I protos/proto protos/proto/auth/auth.proto --go_out=./protos/gen/auth --go_opt=paths=source_relative --go-grpc_out=./protos/gen/auth/ --go-grpc_opt=paths=source_relative
+
+package ssov1
 
 import (
 	context "context"
