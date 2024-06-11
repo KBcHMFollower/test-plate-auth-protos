@@ -1,4 +1,4 @@
-module authProtos
+module github.com/KBcHMFollower/test-plate-auth-arotos
 
 go 1.22.4
 
